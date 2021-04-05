@@ -2,6 +2,10 @@
   padding: 0 40px;
 }
 
+.main__content {
+  margin: 0 auto;
+}
+
 .content {
   display: flex;
   flex-direction: row;
@@ -15,10 +19,6 @@
   font-style: 500;
   max-width: 1200px;
   margin: 0;
-}
-
-.main__content {
-  margin: 0 auto;
 }
 
 .content__item {
