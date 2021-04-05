@@ -15,7 +15,7 @@
   }
 
   &__img:hover {
-    transform: scale(120%);
+    transform: scale(1.2);
   }
 
   &__title {
@@ -70,6 +70,7 @@
     color: #{$main-color};
     background-color: #fff;
   }
+
   &:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
   }
