@@ -3,24 +3,13 @@
 }
 
 .content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: center;
   max-width: 944px;
-}
-
-.page-content {
-  font-family: Roboto, sans-serif;
-  font-style: 500;
-  max-width: 1200px;
-  margin: 0;
+  gap: 50px 48px;
 }
 
 .main__content {
   margin: 0 auto;
-}
-
-.content__item {
-  margin-bottom: 50px;
 }
